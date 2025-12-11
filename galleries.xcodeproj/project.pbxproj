@@ -16,6 +16,26 @@
 			path = galleries;
 			sourceTree = "<group>";
 		};
+		C454BDC72EEAD3DD00D787D3 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C454BDCA2EEAD42300D787D3 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C454BDCB2EEAD46800D787D3 /* Util */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Util;
+			sourceTree = "<group>";
+		};
+		C454BDCC2EEAD47B00D787D3 /* Datastore */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Datastore;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +52,10 @@
 		C454BDA42EEAD08D00D787D3 = {
 			isa = PBXGroup;
 			children = (
+				C454BDCC2EEAD47B00D787D3 /* Datastore */,
+				C454BDCB2EEAD46800D787D3 /* Util */,
+				C454BDCA2EEAD42300D787D3 /* Models */,
+				C454BDC72EEAD3DD00D787D3 /* Views */,
 				C454BDAF2EEAD08D00D787D3 /* galleries */,
 				C454BDAE2EEAD08D00D787D3 /* Products */,
 			);
@@ -62,6 +86,10 @@
 			);
 			fileSystemSynchronizedGroups = (
 				C454BDAF2EEAD08D00D787D3 /* galleries */,
+				C454BDC72EEAD3DD00D787D3 /* Views */,
+				C454BDCA2EEAD42300D787D3 /* Models */,
+				C454BDCB2EEAD46800D787D3 /* Util */,
+				C454BDCC2EEAD47B00D787D3 /* Datastore */,
 			);
 			name = galleries;
 			packageProductDependencies = (

@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct galleriesApp: App {
+    @State var galleryDataStore = GalleryDataStore()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environment(galleryDataStore)
         }
     }
 }
