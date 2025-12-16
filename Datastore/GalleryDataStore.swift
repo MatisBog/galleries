@@ -18,7 +18,13 @@ class GalleryDataStore{
         let galleries = galleries.galleries
         return galleries
     }
-    
+    func getArtworksFromArtist(artist : Artist) -> [Artwork]{
+        return artist.artworks
+    }
+    func getArtistFromArtwork(artwork : Artwork) -> Artist {
+        let galleries = galleries.galleries
+        let allArtist = galleries.
+    }
     func loadData() async {
         do{
             galleries = try load("galleries.json")

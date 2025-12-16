@@ -32,12 +32,16 @@ struct ContentView: View {
             
             Tab {
                 if let selectedGallery = selectedGallery {
-                    
+                    GalleryView(gallery: selectedGallery)
                 }else{
                     Text("Please select a gallery")
                 }
             } label: {
-                <#code#>
+                if let selectedGallery = selectedGallery {
+                    Text("\(selectedGallery.name)")
+                }else {
+                    Text("No gallery")
+                }
             }
 
 
